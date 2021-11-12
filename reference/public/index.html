@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Public API reference &#8212; SymPy 1.10.dev documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/default.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+    <link rel="stylesheet" type="text/css" href="https://live.sympy.org/static/live-core.css" />
+    <link rel="stylesheet" type="text/css" href="https://live.sympy.org/static/live-autocomplete.css" />
+    <link rel="stylesheet" type="text/css" href="https://live.sympy.org/static/live-sphinx.css" />
+    
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="https://live.sympy.org/static/utilities.js"></script>
+    <script src="https://live.sympy.org/static/external/classy.js"></script>
+    <script src="https://live.sympy.org/static/live-core.js"></script>
+    <script src="https://live.sympy.org/static/live-autocomplete.js"></script>
+    <script src="https://live.sympy.org/static/live-sphinx.js"></script>
+    
+    <link rel="shortcut icon" href="../../_static/sympy-notailtext-favicon.ico"/>
+    <link href="https://docs.sympy.org/latest/reference/public/index.html" rel="canonical" />
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Basics" href="basics/index.html" />
+    <link rel="prev" title="SymPy API Reference" href="../index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="basics/index.html" title="Basics"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="SymPy API Reference"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">SymPy 1.10.dev documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">SymPy API Reference</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Public API reference</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="public-api-reference">
+<span id="public-reference"></span><h1>Public API reference<a class="headerlink" href="#public-api-reference" title="Permalink to this headline">¶</a></h1>
+<p>This section contains a summary of the public SymPy modules, that is to say
+functions and methods. All functions and objects implemented in the <code class="docutils literal notranslate"><span class="pre">sympy</span></code>
+core subpackage are documented below.</p>
+<p><strong>Content</strong></p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="basics/index.html">Basics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/assumptions/index.html">Assumptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/calculus/index.html">Calculus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/combinatorics/index.html">Combinatorics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/functions/index.html">Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/integrals/index.html">Integrals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/series/index.html">Series</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/simplify/index.html">Simplify</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/solvers/index.html">Solvers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/abc.html">abc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/algebras.html">Algebras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/concrete.html">Concrete</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/core.html">Core</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/discrete.html">Discrete</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/evalf.html">Numerical Evaluation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/numeric-computation.html">Numeric Computation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/rewriting.html">Term Rewriting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="codegeneration/index.html">Code Generation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/codegen.html">Code Generation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="logic/index.html">Logic</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/logic.html">Logic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/sets.html">Sets</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="matrices/index.html">Matrices</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/matrices/index.html">Matrices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/tensor/index.html">Tensor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/vector/index.html">Vector</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="numbertheory/index.html">Code Generation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/ntheory.html">Number Theory</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="physics/index.html">Physics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/hydrogen.html">Hydrogen Wavefunctions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/matrices.html">Matrices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/paulialgebra.html">Pauli Algebra</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/qho_1d.html">Quantum Harmonic Oscillator in 1-D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/sho.html">Quantum Harmonic Oscillator in 3-D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/secondquant.html">Second Quantization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/wigner.html">Wigner Symbols</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/units/index.html">Unit systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/hep/index.html">High energy physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/vector/index.html">The Physics Vector Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/mechanics/index.html">Classical Mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/quantum/index.html">Quantum Mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/optics/index.html">Optics Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/control/index.html">Control Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/physics/continuum_mechanics/index.html">Continuum Mechanics</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="utilities/index.html">Utilities</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/testing/index.html">Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/utilities/index.html">Utilities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/interactive.html">Interactive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/parsing.html">Parsing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/printing.html">Printing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="topics/index.html">Topics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/geometry/index.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/holonomic/index.html">Holonomic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/liealgebras/index.html">Lie Algebra</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/polys/index.html">Polynomial Manipulation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/categories.html">Category Theory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/crypto.html">Cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/diffgeom.html">Differential Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/plotting.html">Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modules/stats.html">Stats</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../index.html">
+              <img class="logo" src="../../_static/sympylogo.png" alt="Logo"/>
+            </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../index.html"
+                        title="previous chapter">SymPy API Reference</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="basics/index.html"
+                        title="next chapter">Basics</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/reference/public/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="basics/index.html" title="Basics"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="SymPy API Reference"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">SymPy 1.10.dev documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >SymPy API Reference</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Public API reference</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021 SymPy Development Team.
+      Last updated on Nov 08, 2021.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+    </div>
+  </body>
+</html>
